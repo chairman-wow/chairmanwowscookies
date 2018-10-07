@@ -21,6 +21,15 @@
     function get(id) {
         return document.getElementById(id);    
     }  
+    
+    function toggleDiv() {
+      var x = document.getElementById("topnav");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
 </script>
 
 
@@ -52,6 +61,7 @@
   <a href="town">Town of Salem</a>
   <a href="reddit">Reddit</a>
 </div>
+  <button onClick="toggleDiv();" style="position: fixed; top: 0; left: 50vw;"><i class="fa fa-bars"></i></button>
 <script>
 var input = document.getElementById("box");
 
