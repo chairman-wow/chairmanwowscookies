@@ -67,10 +67,14 @@ iframe {
     background: #ccc;
 }
 
-.button {
+button {
     padding: 6px;
     border: none;
-    bargin-top: 8px;
+    margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+}
+
+button:hover {
+    background: #ccc;
 }
