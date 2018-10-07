@@ -32,8 +32,11 @@ li a:hover {
 
 li input[type=text] {
     float: left;
+    width: 100%;
     border: none;
     padding: 14px 16px;
+    margin-top: 5px;
+    margin-left: 5px;
     font-size: 17px;
 }
 li button {
