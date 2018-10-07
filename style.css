@@ -32,9 +32,18 @@ li a:hover {
 
 li input[type=text] {
     float: left;
-    padding: 6px;
     border: none;
-    margin-top: 8px;
-    margin-right: 16px;
+    padding: 14px 16px;
     font-size: 17px;
+}
+li button {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li button:hover {
+    background-color: #111;
 }
