@@ -1,5 +1,7 @@
-body {
+html, body {
     margin: 0;            /* Reset default margin */
+    height: 100%;
+    width: 100%;
 }
 iframe {
     display: block;       /* iframes are inline by default */
@@ -35,6 +37,10 @@ iframe {
 .topnav a.active {
     background-color: #2196F3;
     color: white;
+}
+
+.topnav .search-container {
+    float: right;
 }
 
 /* Style the search box inside the navigation bar */
