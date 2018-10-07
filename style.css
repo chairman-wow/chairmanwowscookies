@@ -1,6 +1,6 @@
 html, body {
     margin: 0;            /* Reset default margin */
-    height: 100%;
+    height: 100% - 75px;
     width: 100%;
 }
 iframe {
@@ -12,6 +12,7 @@ iframe {
 }
 /* Add a black background color to the top navigation bar */
 .topnav {
+    height: 75px;
     overflow: hidden;
     background-color: #e9e9e9;
 }
