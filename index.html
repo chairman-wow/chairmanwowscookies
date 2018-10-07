@@ -29,6 +29,12 @@
       } else {
         x.style.display = "none";
       }
+      var y = document.getElementById("toggler");
+      if (y.style.display === "none") {
+        y.style.display = "block";
+      } else {
+        y.style.display = "none";
+      }
     }
     
     function goTo() {
@@ -51,7 +57,7 @@
 <div class="topnav" id="navbar">
   <div class="search-container">
     <input type="text" id="box" placeholder="URL..." value="" />
-    <button onClick="toggleDiv();"><i class="fa fa-bars"></i></button>
+    <button onClick="toggleDiv();" id="toggler"><i class="fa fa-bars"></i></button>
   </div>
   <a href="bonk">Bonk</a>
   <a href="town">Town of Salem</a>
