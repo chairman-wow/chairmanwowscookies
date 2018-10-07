@@ -46,46 +46,16 @@ iframe {
     margin-right: 16px;
     font-size: 17px;
 }
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li a {
+.topnav button {
     float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
-li input[type=text] {
-    float: left;
-    width: 100%;
-    border: none;
-    padding: 14px 16px;
-    margin-top: 5px;
-    margin-left: 5px;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
     font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
-li button {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.topnave button:hover {
+    #background: #ccc;
 }
-li button:hover {
-    background-color: #111;
-}*/
