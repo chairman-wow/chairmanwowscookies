@@ -23,18 +23,14 @@
     }  
     
     function toggleDiv() {
-      var x = document.getElementById("topnav");
+      var x = document.getElementById("navbar");
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
         x.style.display = "none";
       }
     }
-</script>
-
-
-
-<script>
+    
     function goTo() {
         var input = get("box").value,
             frame = get("frame");
@@ -52,7 +48,7 @@
     }  
 </script>
 
-<div class="topnav">
+<div class="topnav" id="navbar">
   <div class="search-container">
     <input type="text" id="box" placeholder="URL..." value="" />
     <button onClick="goTo();" id="myBtn"><i class="fa fa-search"></i></button>
