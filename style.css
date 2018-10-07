@@ -66,3 +66,11 @@ iframe {
 .topnav .search-container button:hover {
     background: #ccc;
 }
+
+.button {
+    padding: 6px;
+    border: none;
+    bargin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
