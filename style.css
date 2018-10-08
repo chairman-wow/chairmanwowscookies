@@ -55,6 +55,7 @@ iframe {
 }
 
 .topnav .search-container button {
+    visibility: visible;
     float: right;
     padding: 6px 10px;
     margin-top: 8px;
