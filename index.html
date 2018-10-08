@@ -51,7 +51,7 @@
     }  
 </script>
 
-<div class="topnav" id="navbar">
+<div class="topnav" id="navbar" visibility="visible">
   <div class="search-container">
     <input type="text" id="box" placeholder="URL..." value="" />
   </div>
@@ -59,7 +59,7 @@
   <a href="town">Town of Salem</a>
   <a href="reddit">Reddit</a>
 </div>
-    <button onClick="toggleDiv();" id="toggler" style="position: fixed; right: 5; top: 5;"><i class="fa fa-bars"></i></button>
+    <button onClick="toggleDiv();" id="toggler" style="position: fixed; right: 50%; top: 5; transform: translateX(-50%);"><i class="fa fa-bars"></i></button>
 <script>
 var input = document.getElementById("box");
 
