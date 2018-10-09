@@ -69,7 +69,18 @@ iframe {
     background: #ccc;
 }
 
-button {
+.container { 
+	/* fixed position a zero-height full width container */
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	/* center all inline content */
+	text-align: center;
+}
+
+.container > button {
     padding: 6px;
     border: none;
     margin-top: 8px;
@@ -77,6 +88,12 @@ button {
     font-size: 17px;
 }
 
-button:hover {
+.container > button:hover {
     background: #ccc;
+
+.container > div {
+	/* make the block inline */
+	display: inline-block;
+	/* reset container's center alignment */
+	text-align: left;
 }
