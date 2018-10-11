@@ -109,8 +109,8 @@ iframe {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background: #ccc;
 }
 
 /* Dropdown content (hidden by default) */
