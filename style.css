@@ -15,7 +15,6 @@ iframe {
 /* Add a black background color to the top navigation bar */
 .topnav {
     visibility: visible;
-    overflow: hidden;
     background-color: #e9e9e9;
 }
 
