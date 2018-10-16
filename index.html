@@ -97,14 +97,12 @@
     
     function toggleDiv() {
       var x = document.getElementById("navbar");
-      if (x.style.visibility === "visible") {
+      if (x.style.display === "block") {
         x.style.display = "none";
       } else {
         x.style.display = "block";
       }
       get("frame").style.height = "100%";
-      var y = document.getElementById("toggler");
-      y.style.display = "block";
     }
     
     function goTo() {
