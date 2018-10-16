@@ -76,7 +76,7 @@
 
   <script>
     window.onload = function() {
-      get("navbar").style.visibility = "visible";
+      get("navbar").style.display = "none";
     }
     
     function goTo() {
@@ -98,13 +98,13 @@
     function toggleDiv() {
       var x = document.getElementById("navbar");
       if (x.style.visibility === "visible") {
-        x.style = "visibility: hidden; width: 0; height: 0; margin: 0; padding: 0;";
+        x.style.display = "none";
       } else {
-        x.style = "visibility: visible; width: 100%; height: auto; margin: auto; padding: auto;";
+        x.style.display = "block";
       }
       get("frame").style.height = "100%";
       var y = document.getElementById("toggler");
-      y.style.visibility = "visible";
+      y.style.display = "block";
     }
     
     function goTo() {
@@ -126,7 +126,7 @@
    
 
   
-  <div class="topnav" id="navbar" visibility="visible" position="fixed" z-index="5">
+  <div class="topnav" id="navbar" display="block" position="fixed" z-index="5">
   <div class="search-container">
     <input type="text" id="box" placeholder="URL..." value="" />
   </div>
