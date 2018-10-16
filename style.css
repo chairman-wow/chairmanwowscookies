@@ -35,10 +35,7 @@ iframe {
 .container { 
 	/* fixed position a zero-height full width container */
 	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 0;
+	margin: 0 auto;
 	/* center all inline content */
 	text-align: center;
 }
