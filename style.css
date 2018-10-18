@@ -32,15 +32,12 @@ iframe {
     font-size: 17px;
 }
 
-.container { 
+.toggle { 
 	/* fixed position a zero-height full width container */
 	position: fixed;
 	margin: 0 auto;
 	/* center all inline content */
 	text-align: center;
-}
-
-.container > button {
     padding: 6px;
     border: none;
     margin-top: 8px;
@@ -48,13 +45,7 @@ iframe {
     font-size: 17px;
 }
 
-.container > button:hover {
+.toggle:hover {
     background: #ccc;
-
-.container > div {
-	/* make the block inline */
-	display: inline-block;
-	/* reset container's center alignment */
-	text-align: left;
 }
 
