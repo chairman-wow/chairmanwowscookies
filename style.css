@@ -31,13 +31,3 @@ iframe {
     margin-right: 16px;
     font-size: 17px;
 }
-
-.toggle {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.toggle:hover {
-	color: #ccc;
-}
