@@ -130,6 +130,7 @@ input.addEventListener("keyup", function(event) {
     }
     
     function goTo() {
+      if (event.keyCode === 13) {
         var input = get("box").value,
             frame = get("frame");
 
@@ -139,6 +140,7 @@ input.addEventListener("keyup", function(event) {
             input = "http://" + input;
             frame.src = input;
         }      
+      }
     }
 
     function get(id) {
@@ -152,7 +154,7 @@ input.addEventListener("keyup", function(event) {
   
   <div class="topnav" id="navbar" display="block" position="fixed" z-index="5">
     <div class="search-container">
-      <input type="text" id="box" placeholder="URL..." value="" />
+      <input type="text" id="box" placeholder="URL..." value="" onkeydown="goTo();"/>
     </div>
     <div class="dropdown">
       <a href="javascript:void(0);" class="dropbtn">Links <i class="fa fa-caret-down"></i></a>
