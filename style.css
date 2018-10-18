@@ -32,20 +32,12 @@ iframe {
     font-size: 17px;
 }
 
-.toggle { 
-	/* center all inline content */
-	text-align: center;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    font-size: 17px;
-	position: fixed;
+.toggle {
+    position: fixed;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .toggle:hover {
-    background: #ccc;
+	color: #ccc;
 }
-
