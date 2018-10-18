@@ -131,6 +131,20 @@ transform: translateX(-50%)
     function get(id) {
         return document.getElementById(id);    
     }  
+    var input = document.getElementById("box");
+
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  event.preventDefault();
+    alert("enter");
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Trigger the button element with a click
+    goTo();
+  }
+});
+
 </script>
    
 
@@ -153,21 +167,6 @@ transform: translateX(-50%)
     <button class="toggle" onClick="toggleDiv();" style="display:block"><i class="fa fa-bars"></i></button>
 <iframe src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Chairman_Mao_is_the_Red_Sun_in_Our_Hearts%2C_People%27s_Republic_of_China%2C_1968%2C_lithograph_-_Jordan_Schnitzer_Museum_of_Art%2C_University_of_Oregon_-_Eugene%2C_Oregon_-_DSC09554.jpg/800px-thumbnail.jpg" id="frame"/>
   
-<script>
-var input = document.getElementById("box");
-
-// Execute a function when the user releases a key on the keyboard
-input.addEventListener("keyup", function(event) {
-  // Cancel the default action, if needed
-  event.preventDefault();
-    alert("enter");
-  // Number 13 is the "Enter" key on the keyboard
-  if (event.keyCode === 13) {
-    // Trigger the button element with a click
-    goTo();
-  }
-});
-</script>
 
    
 
