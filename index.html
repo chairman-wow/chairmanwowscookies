@@ -160,9 +160,9 @@ var input = document.getElementById("box");
 input.addEventListener("keyup", function(event) {
   // Cancel the default action, if needed
   event.preventDefault();
+    alert("enter");
   // Number 13 is the "Enter" key on the keyboard
   if (event.keyCode === 13) {
-    alert("enter");
     // Trigger the button element with a click
     goTo();
   }
