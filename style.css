@@ -33,16 +33,16 @@ iframe {
 }
 
 .toggle { 
-	/* fixed position a zero-height full width container */
-	position: fixed;
-	margin: 0 auto;
 	/* center all inline content */
 	text-align: center;
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 16px;
     font-size: 17px;
+	position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 .toggle:hover {
