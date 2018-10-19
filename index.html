@@ -108,7 +108,7 @@
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
-    display: none;
+	display: block;
 }
 .show:hover {
     color: #ccc;
@@ -120,6 +120,7 @@
 
     window.onload = function() {
       get("navbar").style.display = "block";
+	    get("shower").style.display = "none";
     }
     
     function goTo() {
